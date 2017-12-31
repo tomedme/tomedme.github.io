@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PomoTimer</title>
+  <link rel="icon" href="/img/_.png" type="image/png" id="indicator">
+  <link rel="stylesheet" href="/css/app.css">
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/timer.js"></script>
+  <script type="text/javascript" src="/js/app.js"></script>
+</head>
+<body>
+<div id="main">
+  <ul id="dashboard">
+    <li><h1 id="timer_default"></h1></li>
+    <li><button class="btn timer" id="pomodoro">Pomodoro <span class="info"><span id="time_pomodoro">25</span>m</span></button></li>
+    <li><button class="btn timer" id="shortbreak">Short break <span class="info"><span id="time_shortbreak">5</span>m</span></button></li>
+    <li><button class="btn timer" id="longbreak">Long break <span class="info"><span id="time_longbreak">10</span>m</span></button></li>
+    <li><button class="btn" id="interrupt">Interrupt</button></li>
+    <!-- li><button class="btn" id="reset">Reset</button></li -->
+  </ul>
+</div>
+</body>
+</html>
